@@ -1,0 +1,273 @@
+fid = input("text:").lower()
+
+litra = len(fid)
+
+jolly= list(fid)
+
+def a():
+    print('''  ### 
+ #   #
+ #   #
+ #####
+ #   #
+ #   #
+ #   #\n''' )
+def b():
+        print('''#### 
+#   #
+#   #
+#### 
+#   #
+#   #
+####\n''' )
+def c():
+    print(''' ### 
+#   #
+#  
+# 
+#
+#   #
+ ### \n''' )
+def d():
+    print('''#### 
+#   #
+#   #
+#   #
+#   #
+#   #
+####\n''' )
+def e():
+    print('''#####
+#
+#
+###
+#
+#
+#####\n''' )
+def f():
+    print('''#####
+#
+#
+###
+#
+#
+#\n''' )
+def g():
+    print(''' ###
+#   #
+#
+#  ##
+#   #
+#   #
+ ###\n''' )
+def h():
+    print('''#   #
+#   #
+#   #
+#####
+#   #
+#   #
+#   #
+#   #\n''' )
+def ii():
+    print('''###
+ #
+ #
+ #
+ #
+ #
+###\n''' )
+def j():
+    print('''###
+ #
+ #
+ #
+ #
+ #
+##\n''')
+def k():
+    print('''#   #
+#  #
+# #
+##
+# #
+#  #
+#   #\n''' )
+def l():
+    print('''#
+#
+#
+#
+#
+#
+#####\n''')
+def m():
+    print('''#   #
+#   #
+## ##
+# # #
+#   #
+#   #
+#   #\n''' )
+def n():
+    print('''#   #
+#   #
+##  #
+# # #
+#  ##
+#   #
+#   #\n''' )
+def o():
+    print(''' ### 
+#   #
+#   #
+#   #
+#   #
+#   #
+ ###\n''' )
+def p():
+    print('''####
+#   #
+#   #
+####
+#
+#
+#\n''' )
+def q():
+    print('''  ### 
+#   #
+#   #
+#   #
+#   #
+#   #
+#  # 
+ ## #\n''' )
+def r():
+    print('''#### 
+#   #
+#   #
+####
+# #
+#  
+#   #\n''' )
+def s():
+    print(''' ####
+#
+#
+ ###
+    #
+    #
+ ###\n''' )
+def t():
+    print('''#####
+  #
+  #
+  #
+  #
+  #
+  #\n''' )
+def u():
+    print('''#   #
+#   #
+#   #
+#   #
+#   #
+#   #
+ # #
+  #\n''' )
+def v():
+    print('''#   #
+#   #
+#   #
+#   #
+#   #
+#   #
+ # #
+  #\n''' )
+def w():
+    print('''#   #
+#   #
+#   #
+# # #
+## ##
+#   #
+#   #\n''' )
+def x():
+    print('''#   #
+#   #
+ # #
+  #
+ # #
+#   #
+#   #\n''' )
+def y():
+    print('''#   #
+#   #
+ # #
+  #
+  #
+  #
+  #\n''' )
+def z():
+    print('''#####
+    #
+   #
+  #
+ #
+#
+##### \n''' )
+
+
+for i in range(0, litra):
+    if(jolly[i] == "a"):
+        a()
+    elif(jolly[i] == "b"):
+        b()
+    elif(jolly[i] == "c"):
+        c()
+    elif(jolly[i] == "d"):
+        d()
+    elif(jolly[i] == "e"):
+        e()
+    elif(jolly[i] == "f"):
+        f()
+    elif(jolly[i] == "g"):
+        g()
+    elif(jolly[i] == "h"):
+        h()
+    elif(jolly[i] == "i"):
+        ii()
+    elif(jolly[i] == "j"):
+        j()
+    elif(jolly[i] == "k"):
+        k()
+    elif(jolly[i] == "l"):
+        l()
+    elif(jolly[i] == "m"):
+        m()
+    elif(jolly[i] == "n"):
+        n()
+    elif(jolly[i] == "o"):
+        o()
+    elif(jolly[i] == "p"):
+        p()
+    elif(jolly[i] == "q"):
+        q()
+    elif(jolly[i] == "r"):
+        r()
+    elif(jolly[i] == "s"):
+        s()
+    elif(jolly[i] == "t"):
+        t()
+    elif(jolly[i] == "u"):
+        u()
+    elif(jolly[i] == "v"):
+        v()
+    elif(jolly[i] == "w"):
+        w()
+    elif(jolly[i] == "x"):
+        x()
+    elif(jolly[i] == "y"):
+        y()
+    elif(jolly[i] == "z"):
+        z()
